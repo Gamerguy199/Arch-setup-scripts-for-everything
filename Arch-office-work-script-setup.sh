@@ -6,3 +6,4 @@ git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 paru -S google-chrome
+reboot
