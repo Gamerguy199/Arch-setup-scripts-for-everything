@@ -1,5 +1,5 @@
 sudo pacman -Syu --noconfirm
-sudo pacman -S steam sddm kitty plasma-desktop rust nautilus discord vlc jdk-openjdk openssl-1.1 pavucontrol --noconfirm
+sudo pacman -S steam sddm kitty plasma-desktop rust nautilus discord vlc jdk-openjdk openssl-1.1 pavucontrol flatpak --noconfirm
 sudo systemctl enable sddm.service
 git clone https://aur.archlinux.org/paru.git
 cd paru
