@@ -20,4 +20,4 @@ and thats it just reboot and run gamemoded -t agan and it should work since it w
 For native games like fnf and mods:gamemoderun ./game (replace game name of the game like Funkin note this works for games with "./" thats launch)
 For windows game in heroic go to advanced and add "gamemoderun"
 for steam games add "gamemoderun %command%"
-For clarification GAMEMODE IS NOT MINE RELATE TO https://github.com/FeralInteractive/gamemode FOR THE OFFICIAL REPO
+For clarification GAMEMODE IS NOT MINE RELATE TO https://github.com/FeralInteractive/gamemode FOR THE OFFICIAL REPO IF YOU HAVE ISSUES
