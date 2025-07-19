@@ -1,0 +1,23 @@
+Run gamemoded -t
+if it fails for like the cpu part do in the terminal:
+1. sudo nano /etc/systemd/system/set-cpu-governor.service
+2.in the nano add [Unit]
+Description=Set CPU Governor to Performance
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'echo performance | tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor'
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+3.save the file with control-O
+4.sudo systemctl daemon-reload
+5.sudo systemctl enable set-cpu-governor.service
+6.reboot
+and thats it just reboot and run gamemoded -t agan and it should work since it worked for me
+For native games like fnf and mods:gamemoderun ./game (replace game name of the game like Funkin note this works for games with "./" thats launch)
+For windows game in heroic go to advanced and add "gamemoderun"
+for steam games add "gamemoderun %command%"
+For clarification GAMEMODE IS NOT MINE RELATE TO https://github.com/FeralInteractive/gamemode FOR THE OFFICIAL REPO
