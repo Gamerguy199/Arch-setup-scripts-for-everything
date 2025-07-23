@@ -5,5 +5,5 @@ sudo systemctl enable sddm.service
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
-paru -S google-chrome --noconfirm
+paru -S librewolf-bin --noconfirm
 reboot
