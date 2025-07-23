@@ -6,6 +6,6 @@ cd paru
 makepkg -si
 paru -S heroic-games-launcher-bin --noconfirm
 paru -S wine-tkg-staging-ntsync-bin --noconfirm
-paru -S google-chrome --noconfirm
+paru -S librewolf-bin --noconfirm
 paru -S obs-studio-git --noconfirm
 reboot
