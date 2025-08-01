@@ -1,5 +1,5 @@
-sudo pacman -S mtpfs
-paru -S jmtpfs
-sudo pacman -S gvfs-mtp
-sudo pacman -Sy gvfs-gphoto2
+sudo pacman -S mtpfs --noconfirm
+paru -S jmtpfs --noconfirm
+sudo pacman -S gvfs-mtp --noconfirm
+sudo pacman -Sy gvfs-gphoto2 --noconfirm
 reboot
