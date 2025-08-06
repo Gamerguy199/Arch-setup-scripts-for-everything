@@ -9,6 +9,7 @@ paru -S wine-tkg-staging-ntsync-bin --noconfirm
 paru -S librewolf-bin --noconfirm
 paru -S obs-studio.git --noconfirm
 paru -S waypaper --noconfirm
+paru -S mpvpaper --noconfirm
 cp -r hypr $HOME/.config
 cp -r waypaper $HOME/.config
 mkdir Live&Non Live Wallpapers $HOME
