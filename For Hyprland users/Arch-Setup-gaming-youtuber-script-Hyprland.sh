@@ -11,5 +11,5 @@ paru -S obs-studio-git --noconfirm
 paru -S waypaper --noconfirm
 cp -r hypr $HOME/.config
 cp -r waypaper $HOME/.config
-cp -r Live&Non Live Wallpapers $HOME
+mkdir Live&Non Live Wallpapers $HOME
 reboot
