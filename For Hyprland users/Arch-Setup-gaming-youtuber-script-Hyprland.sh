@@ -7,7 +7,7 @@ makepkg -si
 paru -S heroic-games-launcher-bin --noconfirm
 paru -S wine-tkg-staging-ntsync-bin --noconfirm
 paru -S librewolf-bin --noconfirm
-paru -S obs-studio-git --noconfirm
+paru -S obs-studio.git --noconfirm
 paru -S waypaper --noconfirm
 cp -r hypr $HOME/.config
 cp -r waypaper $HOME/.config
