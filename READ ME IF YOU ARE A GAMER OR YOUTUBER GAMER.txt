@@ -18,6 +18,6 @@ WantedBy=multi-user.target
 6.reboot
 and thats it just reboot and run gamemoded -t agan and it should work since it worked for me
 For native games like fnf and mods:gamemoderun ./game (replace game name of the game like Funkin note this works for games with "./" thats launch)
-For windows game in heroic go to advanced and add "gamemoderun"
+For windows game in heroic go to "other" and have the check box called "Use GameMode" 
 for steam games add "gamemoderun %command%"
 For clarification GAMEMODE IS NOT MINE RELATE TO https://github.com/FeralInteractive/gamemode FOR THE OFFICIAL REPO IF YOU HAVE ISSUES
